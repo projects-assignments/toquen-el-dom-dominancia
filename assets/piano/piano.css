@@ -1,11 +1,73 @@
 html {
     box-sizing: border-box;
-    }
-    *,
-    *:before,
-    *:after {
+}
+
+*,
+*:before,
+*:after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    }
-    
+}
+main {
+  margin: auto;
+}
+
+.piano {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    background-color: gold;
+    position: relative;
+    margin: auto auto;
+}
+.white-keys {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-left: 10px;
+}
+.white-keys button {
+    width: 13%;
+    height: 20rem;
+    border-radius: 1px solid black;
+    position: relative;
+}
+
+.black-keys {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    width: 100%;
+}
+
+.black-keys button {
+    width: 10%;
+    height: 7rem;
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+}
+
+.REb4 {
+   margin-left: 11%;
+}
+
+.Mib4 {
+    margin-left: 3.3%;
+}
+
+.SOLb4 {
+    margin-left: 17%;
+}
+
+.LAb4 {
+    margin-left: 3%;
+}
+
+.SIb4 {
+    margin-left: 3.5%;
+}
