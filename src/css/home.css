@@ -6,8 +6,9 @@ body {
 
 .title-hero {
     background-size: cover;
+    font-family: var(--title-font);
     text-align: center;
-    color: white;
+    color: var(--terciary-color);
     position: relative;
     display: flex;
     justify-content: center;
@@ -32,7 +33,7 @@ body {
 
 }
 #btn-try{
-    background-color: var(--);
+    background-color: var(--secondary-color);
     border-radius: 15px;
 }
 

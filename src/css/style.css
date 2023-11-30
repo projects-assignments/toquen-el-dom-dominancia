@@ -14,10 +14,11 @@ html {
     }
 
     :root {
-        --black: black;
-        --orange: #D99923;
-        --white: #FCEDE0;
-        --background-black: #161515;
+        --primary-color: #161515;
+        --secondary-color: #D99923;
+        --terciary-color: #FCEDE0;
+        --guitar-string-color: grey;
+        --quartiary-color: black;
         --title-font: 'Montserrat Alternates', sans-serif;
         --text-font: 'Roboto Mono', monospace;
         --h1-size: 4rem;
