@@ -1,0 +1,9 @@
+/*instruments styles*/
+@import "./piano.css";
+@import "./guitar.css";
+/*handpan*/
+@import "./about-us.css";
+@import "./footer.css";
+@import "./home.css";
+@import "./instruments.css";
+@import "./nav.css";
