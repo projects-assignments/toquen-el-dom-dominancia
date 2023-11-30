@@ -1,0 +1,43 @@
+
+body {
+    background-color: black;
+}
+
+.title-hero {
+    background-size: cover;
+    text-align: center;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.text-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+}
+#btn-try{
+    background-color: var(--orange);
+    border-radius: 15px;
+}
+
+.hero-img {
+    width: 100%;
+
+}
+
+
+
+.instrument-1 img {
+    width: 100px;
+}
+
