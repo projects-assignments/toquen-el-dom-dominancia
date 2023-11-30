@@ -3,6 +3,7 @@ body {
     background-color: black;
 }
 
+
 .title-hero {
     background-size: cover;
     text-align: center;
@@ -25,8 +26,13 @@ body {
     width: 100%;
     font-size: 1rem;
 }
+#h1-hero{
+    font-size: var(--h1-size);
+    
+
+}
 #btn-try{
-    background-color: var(--orange);
+    background-color: var(--);
     border-radius: 15px;
 }
 

@@ -1,4 +1,7 @@
-@import "css\base.css";
+@import "./base.css";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&family=Montserrat+Alternates&family=Roboto+Mono&display=swap');
+
 html {
     box-sizing: border-box;
     }
@@ -15,4 +18,9 @@ html {
         --orange: #D99923;
         --white: #FCEDE0;
         --background-black: #161515;
+        --title-font: 'Montserrat Alternates', sans-serif;
+        --text-font: 'Roboto Mono', monospace;
+        --h1-size: 4rem;
+        --h2-size: 2rem;
+        --text-size: 1rem;
     }
