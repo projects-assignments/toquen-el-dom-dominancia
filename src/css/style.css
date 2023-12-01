@@ -24,4 +24,7 @@ html {
         --h1-size: 4rem;
         --h2-size: 2rem;
         --text-size: 1rem;
+        --footer-icons-size: 2.5rem;
+        --logo-size: 9rem;
+        --opacity-null:  rgba(255,255,255,0.0) ;;
     }

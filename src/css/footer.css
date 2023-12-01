@@ -1,24 +1,34 @@
 footer {
     background-color: var(--quartiary-color);
-    width: auto;
-    height: 50px;
+    width:100%;
+    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+
 .icons-footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    width: 200px;
+    width: 35%;
 }
 
 footer img {
-    width: 25px;
+    width: var(--footer-icons-size);
+    
+
 }
 
 #img-logo {
-    width: 80px;
+    width: var(--logo-size);
+
+    margin-left: 6rem;
+}
+.btn-logo{
+    background-color: var(--opacity-null);
+    width: var(--logo-size);
+    
 }
