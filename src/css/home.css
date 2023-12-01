@@ -1,10 +1,8 @@
-
 body {
     background-color: Var(--primary-color);
+
 }
-
-
-.title-hero {
+.title-hero{
     background-size: cover;
     font-family: var(--title-font);
     text-align: center;
@@ -14,37 +12,104 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-
 }
 
-.text-box {
+.text-box{
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    height: 50vh;
     width: 100%;
     font-size: 1rem;
+    
 }
 #h1-hero{
-    font-size: var(--h1-size);
-    
-
+    font-size: var(--h1-xl-size);
+    width: 65%;  
 }
 #btn-try{
     background-color: var(--secondary-color);
-    border-radius: 15px;
+    border-radius: 30px;
+    border-style: none;
+    font-family: var(--text-font) ;
+    font-weight: bold;
+    font-size: var(--text-hero-btn-size);
+    margin-top: 5rem;
+    padding: 0 5px 0 5px;
+    width: 8%;
+    height: 6vh;
 }
+#p-hero{
+    margin-top: 3rem;
+    font-family: var(--text-font);
+    font-size: var(--h2-size);
 
-.hero-img {
+}
+.hero-img{
     width: 100%;
+    
 
 }
 
+.i-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:100rem;
+    width: 100%;
+    
+}
+
+.m-o-staff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+
+}
+.container_h2_p{
+    width: 71%;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
 
 
-.instrument-1 img {
-    width: 100px;
+}
+.staff-h2{
+    font-size: var(--h1-size);
+    font-family: var(--title-font);
+    color: var(--terciary-color);
+
+}
+
+.img-team{
+    margin-left: 5rem;
+    width: 10vw;
+    
+}
+.article-team{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem
+
+}
+.p_h2{
+        color: var(--terciary-color);
+    font-size: var(--h2-size);
+}
+.p-article {
+    color: var(--terciary-color);
+    width: 60%;
+    overflow: hidden;
+    font-size: var(--h2-size);
+
+}
+.text-right{
+    text-align: right;
 }
 

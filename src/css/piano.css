@@ -1,4 +1,4 @@
-  body {
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,3 +44,4 @@
     box-shadow: inset -5px 5px 20px rgba(0,0,0,0.2);
     background:linear-gradient(to bottom, #fff 0%, #eee 100%);
   }
+  

@@ -10,7 +10,6 @@
     width: 100%;
     z-index: 1000;
     border:1px solid orange;
-
 }
 .nav-links{
     display: flex;
@@ -21,7 +20,7 @@
         list-style: none;
         
 }
-.nav-links li{
+.nav-links-li{
     font-family: var(--text-font);
     font-size: var(--nav-text-size);
     color: var(--terciary-color);
@@ -29,7 +28,7 @@
     padding: 5px 8px 5px 8px;
     border-radius: 10px; */
 }
-.nav-links a{
+.nav-links-a{
     text-decoration: none;
     
     
