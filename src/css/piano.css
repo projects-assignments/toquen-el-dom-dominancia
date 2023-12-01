@@ -1,10 +1,11 @@
-body {
+/* body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
     background: #E3F2FD;
-  }
+  } */
   .piano-container {
     padding: 35px 40px;
     border-radius: 20px;
