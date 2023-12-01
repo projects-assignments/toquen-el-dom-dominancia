@@ -1,0 +1,50 @@
+
+body {
+    background-color: Var(--primary-color);
+}
+
+
+.title-hero {
+    background-size: cover;
+    font-family: var(--title-font);
+    text-align: center;
+    color: var(--terciary-color);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.text-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+}
+#h1-hero{
+    font-size: var(--h1-size);
+    
+
+}
+#btn-try{
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+}
+
+.hero-img {
+    width: 100%;
+
+}
+
+
+
+.instrument-1 img {
+    width: 100px;
+}
+
