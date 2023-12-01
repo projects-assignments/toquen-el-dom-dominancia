@@ -22,13 +22,8 @@ footer img {
 
 }
 
-#img-logo {
+.img-logo {
     width: var(--logo-size);
 
     margin-left: 6rem;
-}
-.btn-logo{
-    background-color: var(--opacity-null);
-    width: var(--logo-size);
-    
 }
