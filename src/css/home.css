@@ -1,8 +1,11 @@
-body {
+#home_body {
     background-color: Var(--primary-color);
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
 
+=======
+>>>>>>> addb945907c517acc1a51d3f8cd66c75a1c2ec4f
 }
 .title-hero{
     background-size: cover;
