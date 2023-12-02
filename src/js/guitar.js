@@ -1,8 +1,8 @@
-const pianoKeys = document.querySelectorAll(".piano-keys .key");
+const guitarStrings = document.querySelectorAll(".guitar-strings .string");
 let allKeys = [];
-const audio = new Audio(`/src/assets/sounds/piano_sounds/a.wav`);
+const audio = new Audio(`/src/assets/sounds/guitar_sounds/1.wav`);
 const playTune = (key) => {
-    audio.src = `/src/assets/sounds/piano_sounds/${key}.wav`;
+    audio.src = `/src/assets/sounds/guitar_sounds/${key}.wav`;
     audio.play();
     const clickedKey = document.querySelector(`[data-key="${key}"]`);
     clickedKey.classList.add("active");
@@ -10,7 +10,7 @@ const playTune = (key) => {
         clickedKey.classList.remove("active");
     }, 150);
 };
-pianoKeys.forEach(key => {
+guitarStrings.forEach(key => {
     allKeys.push(key.dataset.key);
     key.addEventListener("click", () => playTune(key.dataset.key));
 });
