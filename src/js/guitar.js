@@ -1,6 +1,6 @@
-const guitarStrings = document.querySelectorAll(".strings-guitar .string");
+const guitarStrings = document.querySelectorAll(".guitar-strings .string");
 let allKeys = [];
-const audio = new Audio(`/src/assets/sounds/guitar_sounds/a.wav`);
+const audio = new Audio(`/src/assets/sounds/guitar_sounds/1.wav`);
 const playTune = (key) => {
     audio.src = `/src/assets/sounds/guitar_sounds/${key}.wav`;
     audio.play();
