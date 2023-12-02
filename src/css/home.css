@@ -1,5 +1,7 @@
 body {
     background-color: Var(--primary-color);
+    display: flex;
+    flex-direction: column;
 
 }
 .title-hero{
