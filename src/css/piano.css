@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* body {
     display: flex;
     flex-direction: column;
@@ -46,3 +47,93 @@
     background:linear-gradient(to bottom, #fff 0%, #eee 100%);
   }
   
+=======
+body {
+  background-color: Var(--primary-color);
+}
+
+main {
+  width: 100%;
+  height: 80rem;
+}
+
+.section-1-piano {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-piano {
+  font-family: var(--title-font);
+  font-size: var(--h1-size);
+  color: var(--terciary-color);
+
+  margin-bottom: 4rem;
+
+}
+
+
+.h2-piano {
+  color: var(--terciary-color);
+  font-size: var(--h2-size);
+  margin-bottom: 4rem;
+}
+
+.p-piano {
+  font-family: var(--text-font);
+  font-size: var(--text-font);
+  color: var(--terciary-color);
+  margin-bottom: 4rem;
+}
+
+/* PIANO*/
+.container-1-piano {
+  border-radius: 30px;
+  background: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+}
+
+.piano-keys {
+  display: flex;
+  list-style: none;
+  padding: 2rem 0 2rem 0;
+
+}
+
+.piano-keys .key {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.piano-keys .black {
+  z-index: 2;
+  width: 44px;
+  height: 140px;
+  margin: 0 -22px 0 -22px;
+  border-radius: 0 0 5px 5px;
+  background: linear-gradient(#333, #000);
+}
+
+.piano-keys .black.active {
+  box-shadow: inset -5px -10px 10px rgba(255, 255, 255, 0.1);
+  background: linear-gradient(to bottom, #000, #434343);
+}
+
+.piano-keys .white {
+  height: 230px;
+  width: 70px;
+  border-radius: 8px;
+  border: 1px solid var(--secondary-color);
+  background: linear-gradient(#fff, #eee);
+
+}
+
+.piano-keys .white.active {
+  box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+}
+>>>>>>> a59781699f002d323127cbb4ca7be8a5c6b9d058
