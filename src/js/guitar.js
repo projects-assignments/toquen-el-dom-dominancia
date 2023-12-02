@@ -1,8 +1,8 @@
 const guitarStrings = document.querySelectorAll(".guitar-strings .string");
 let allKeys = [];
-const audio = new Audio(`../src/assets/sounds/guitar-sounds/aa.wav`);
+const audio = new Audio(`/src/assets/sounds/guitar_sounds/1.wav`);
 const playTune = (key) => {
-    audio.src = `../src/assets/sounds/guitar-sounds/${key}.wav`;
+    audio.src = `/src/assets/sounds/guitar_sounds/${key}.wav`;
     audio.play();
     const clickedKey = document.querySelector(`[data-key="${key}"]`);
     clickedKey.classList.add("active");

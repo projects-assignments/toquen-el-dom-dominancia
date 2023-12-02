@@ -1,4 +1,46 @@
 
+body {
+  background-color: Var(--primary-color);
+}
+
+main {
+  width: 100%;
+  height: 80rem;
+}
+
+.section-1-piano {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-piano {
+  font-family: var(--title-font);
+  font-size: var(--h1-size);
+  color: var(--terciary-color);
+
+  margin-bottom: 4rem;
+
+}
+
+
+.h2-piano {
+  color: var(--terciary-color);
+  font-size: var(--h2-size);
+  margin-bottom: 4rem;
+}
+
+.p-piano {
+  font-family: var(--text-font);
+  font-size: var(--text-font);
+  color: var(--terciary-color);
+  margin-bottom: 4rem;
+}
+
+
+
+
 
 main {
     display: flex;
