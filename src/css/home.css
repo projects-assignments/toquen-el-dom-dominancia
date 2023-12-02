@@ -12,6 +12,8 @@
     font-family: var(--title-font);
     text-align: center;
     color: var(--terciary-color);
+    background-image: linear-gradient(var(--primary-color)90%,var(--secondary-color) );
+    height: 40rem;
     position: relative;
     display: flex;
     justify-content: center;
@@ -22,6 +24,7 @@
 .text-box{
     position: absolute;
     display: flex;
+    color: var(--terciary-color);
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -104,12 +107,15 @@
 
 }
 .p_h2{
-        color: var(--terciary-color);
+    color: var(--terciary-color);
     font-size: var(--h2-size);
+    font-family: var(--text-font);
+
 }
 .p-article {
     color: var(--terciary-color);
     width: 60%;
+    font-family: var(--text-font);
     overflow: hidden;
     font-size: var(--h2-size);
 

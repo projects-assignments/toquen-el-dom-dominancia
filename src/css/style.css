@@ -16,8 +16,9 @@ html {
     :root {
         --primary-color: #161515;
         --secondary-color: #D99923;
-        --terciary-color: #FCEDE0;
-        --guitar-string-color: grey;
+        --secondary-color-rgba:rgba(217, 153, 35,0.10);
+        --terciary-color: #fcede0;
+        --guitar-string-color: rgb(255, 255, 255);
         --quartiary-color: black;
         --title-font: 'Montserrat Alternates', sans-serif;
         --text-font: 'Roboto Mono', monospace;
