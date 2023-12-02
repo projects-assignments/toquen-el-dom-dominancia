@@ -18,3 +18,10 @@ const pressedKey = (e) => {
     if (allKeys.includes(e.key)) playTune(e.key);
 };
 document.addEventListener("keydown", pressedKey);
+
+
+
+
+
+
+
