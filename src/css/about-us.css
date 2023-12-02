@@ -14,7 +14,7 @@
         display:flex;
         justify-content: center;
         width: 100%;
-        height: 110rem;
+        height: 119rem;
         align-items:center;
         flex-direction: column;
     }
@@ -25,7 +25,7 @@
         display: flex;
         flex-direction: column;
         justify-content:flex-start;
-        align-items: center;
+        
         margin-top: 8rem;
         margin-left: 6rem;
         margin-right: 6rem;
@@ -33,10 +33,11 @@
     }
     .about-us-h1, .about-us-h2{
         color:var(--terciary-color);
+        
      
     }
     .about-us-h1{
-        font-size: 2em;
+        font-size: var(--h1-size);
         font-weight: 800; 
         margin-bottom: 2rem;
     }
