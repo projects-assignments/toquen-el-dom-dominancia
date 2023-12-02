@@ -9,6 +9,7 @@
         font-family: var(--title-font); 
     } */
     .about-us-main{
+        font-family: var(--title-font);
         background-color: var(--primary-color);
         display:flex;
         justify-content: center;
