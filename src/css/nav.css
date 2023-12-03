@@ -5,7 +5,7 @@
     justify-content: space-between;
     position: fixed;
     background-color: var(--quartiary-color);
-    border:2px solid var(--quartiary-color);
+    border:2px solid var(--secondary-color);
     height: 10vh;
     width: 100%;
     z-index: 1000;

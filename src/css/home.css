@@ -8,7 +8,7 @@
     font-family: var(--title-font);
     text-align: center;
     color: var(--terciary-color);
-    /* background-image: linear-gradient(var(--secondary-color),var(--primary-color)30% ); */
+    
     height: 45rem;
     position: relative;
     display: flex;
