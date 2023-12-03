@@ -52,7 +52,7 @@
     border-radius: 10px;
 }
 
-#button-instruments {
+.button-instruments {
     width: 6rem;
     font-family: var(--text-font);
     font-size: var(--text-hero-btn-size);
@@ -64,7 +64,7 @@
 
 }
 
-#button-instruments:hover {
+.button-instruments:hover {
     cursor: pointer;
 
 }

@@ -39,7 +39,7 @@
     width: 65%;  
     margin-top: 4rem;
 }
-#btn-try{
+.button-instruments-home{
     background-color: var(--secondary-color);
     border-radius: 30px;
     border-style: none;
@@ -50,7 +50,7 @@
     height: 2rem; 
 
 }
-#btn-try:hover{
+.button-instruments-home:hover{
     cursor: pointer;   
 }
 #p-hero{
