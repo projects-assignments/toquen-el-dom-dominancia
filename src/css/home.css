@@ -2,10 +2,6 @@
     background-color: Var(--primary-color);
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-
-=======
->>>>>>> addb945907c517acc1a51d3f8cd66c75a1c2ec4f
 }
 .title-hero{
     background-size: cover;
@@ -66,7 +62,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height:150rem;
+    height:160rem;
     width: 100%;
     
 }
@@ -79,7 +75,7 @@
 
 }
 .container_h2_p{
-    width: 71%;
+    width: 62%;
     display: flex;
     flex-direction: column;
     align-self:center;
@@ -94,8 +90,11 @@
 }
 
 .img-team{
-    margin-left: 5rem;
+    margin-left: 3rem;
+    margin-right: 0.5rem;
     width: 10vw;
+    box-shadow:  12px 12px rgba(141, 133, 133, 0.15);;
+    
     
 }
 .article-team{
@@ -114,14 +113,14 @@
 }
 .p-article {
     color: var(--terciary-color);
-    width: 60%;
+    width: 50%;
     font-family: var(--text-font);
     overflow: hidden;
     font-size: var(--h2-size);
 
 }
 .text-right{
-    text-align: right;
+    margin-left: 5rem;
 }
 
 
