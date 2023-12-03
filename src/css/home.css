@@ -9,7 +9,7 @@
     text-align: center;
     color: var(--terciary-color);
     background-image: linear-gradient(var(--primary-color)90%,var(--secondary-color) );
-    height: 40rem;
+    height: 45rem;
     position: relative;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
+    height: 35rem;
     width: 100%;
     font-size: 1rem;
     
@@ -32,21 +32,26 @@
 #h1-hero{
     font-size: var(--h1-xl-size);
     width: 65%;  
+    margin-top: 4rem;
 }
 #btn-try{
-    background-color: var(--secondary-color);
+     background-color: var(--secondary-color);
     border-radius: 30px;
     border-style: none;
     font-family: var(--text-font) ;
     font-weight: bold;
     font-size: var(--text-hero-btn-size);
-    margin-top: 5rem;
-    padding: 0 5px 0 5px;
-    width: 8%;
-    height: 6vh;
+
+    width: 6rem;
+    height: 2rem; 
+   
 }
+#btn-try:hover{
+    cursor: pointer;
+    
+    }
 #p-hero{
-    margin-top: 3rem;
+
     font-family: var(--text-font);
     font-size: var(--h2-size);
 
@@ -107,7 +112,7 @@
 }
 .p_h2{
     color: var(--terciary-color);
-    font-size: var(--h2-size);
+    font-size: var(--text-size);
     font-family: var(--text-font);
 
 }
@@ -115,8 +120,9 @@
     color: var(--terciary-color);
     width: 50%;
     font-family: var(--text-font);
+    font-size: var(--text-size);
     overflow: hidden;
-    font-size: var(--h2-size);
+ 
 
 }
 .text-right{

@@ -1,32 +1,23 @@
-/* 
-    #body_about_us{
-        background-color: var(--primary-color);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 2rem; 
-        font-family: var(--title-font); 
-    } */
+
     .about-us-main{
         font-family: var(--title-font);
         background-color: var(--primary-color);
         display:flex;
         justify-content: center;
         width: 100%;
-        height: 119rem;
+        height: 155rem;
         align-items:center;
         flex-direction: column;
     }
     .about-us-img{
         width:60rem;
+        
     }
     #section-1{
         display: flex;
         flex-direction: column;
         justify-content:flex-start;
-        
-        margin-top: 8rem;
+        margin-top: 4rem;
         margin-left: 6rem;
         margin-right: 6rem;
       
@@ -39,12 +30,15 @@
     .about-us-h1{
         font-size: var(--h1-size);
         font-weight: 800; 
-        margin-bottom: 2rem;
+        margin-top: 10rem;
+        margin-bottom: 4rem;
     }
     .about-us-text{
         color: white;
         font-family: var(--text-font);
+        font-size: var(--text-size)
     }
     .about-us-article{
+        font-size: var(--h2-size);
         margin: 2rem;
     }
