@@ -1,10 +1,8 @@
-body {
-    background-color: Var(--primary-color);
-}
-
-main {
+.main-instruments {
     width: 100%;
-    height: 80rem;
+    height: 70rem;
+    background-color: var(--primary-color);
+
 }
 
 .section-1-instruments {
@@ -12,18 +10,18 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
-.h1-gallery-instruments {
+.h1-instruments {
     font-family: var(--title-font);
     font-size: var(--h1-size);
     color: var(--terciary-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
 }
+
+/*INSTRUMENTS*/
 
 .article-instruments {
     margin-bottom: 4rem;
@@ -39,7 +37,7 @@ main {
     align-items: center;
     justify-content: space-around;
     border: 2px solid var(--terciary-color);
-    border-radius:10px;
+    border-radius: 10px;
 }
 
 .p-instruments {
@@ -50,7 +48,7 @@ main {
 
 .image-instruments {
     width: 23rem;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
 #button-instruments {
@@ -62,4 +60,10 @@ main {
     background-color: var(--secondary-color);
     border-radius: 30px;
     border-style: none;
+
+}
+
+#button-instruments:hover {
+    cursor: pointer;
+
 }

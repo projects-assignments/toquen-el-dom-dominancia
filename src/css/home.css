@@ -2,25 +2,27 @@
     background-color: Var(--primary-color);
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-
-=======
->>>>>>> addb945907c517acc1a51d3f8cd66c75a1c2ec4f
 }
 .title-hero{
     background-size: cover;
     font-family: var(--title-font);
     text-align: center;
     color: var(--terciary-color);
-    background-image: linear-gradient(var(--primary-color)90%,var(--secondary-color) );
-    height: 40rem;
+    
+    height: 45rem;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
+.hero-img-orange{
+    
+    background-size: cover;
+    
+    
+   
+}
 .text-box{
     position: absolute;
     display: flex;
@@ -28,7 +30,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
+    height: 35rem;
     width: 100%;
     font-size: 1rem;
     
@@ -36,29 +38,34 @@
 #h1-hero{
     font-size: var(--h1-xl-size);
     width: 65%;  
+    margin-top: 4rem;
 }
 #btn-try{
-    background-color: var(--secondary-color);
+     background-color: var(--secondary-color);
     border-radius: 30px;
     border-style: none;
     font-family: var(--text-font) ;
     font-weight: bold;
     font-size: var(--text-hero-btn-size);
-    margin-top: 5rem;
-    padding: 0 5px 0 5px;
-    width: 8%;
-    height: 6vh;
+
+    width: 6rem;
+    height: 2rem; 
+   
 }
+#btn-try:hover{
+    cursor: pointer;
+    
+    }
 #p-hero{
-    margin-top: 3rem;
+
     font-family: var(--text-font);
     font-size: var(--h2-size);
 
 }
 .hero-img{
     width: 100%;
-    
-
+    box-shadow:inset 0 -3em 3em rgba(0, 0, 0, 0.6);
+    position: absolute;
 }
 
 .i-main{
@@ -66,7 +73,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height:150rem;
+    height:160rem;
     width: 100%;
     
 }
@@ -79,7 +86,7 @@
 
 }
 .container_h2_p{
-    width: 71%;
+    width: 62%;
     display: flex;
     flex-direction: column;
     align-self:center;
@@ -94,8 +101,11 @@
 }
 
 .img-team{
-    margin-left: 5rem;
+    margin-left: 3rem;
+    margin-right: 0.5rem;
     width: 10vw;
+    box-shadow:  12px 12px rgba(141, 133, 133, 0.15);
+    
     
 }
 .article-team{
@@ -108,20 +118,21 @@
 }
 .p_h2{
     color: var(--terciary-color);
-    font-size: var(--h2-size);
+    font-size: var(--text-size);
     font-family: var(--text-font);
 
 }
 .p-article {
     color: var(--terciary-color);
-    width: 60%;
+    width: 50%;
     font-family: var(--text-font);
+    font-size: var(--text-size);
     overflow: hidden;
-    font-size: var(--h2-size);
+ 
 
 }
 .text-right{
-    text-align: right;
+    margin-left: 5rem;
 }
 
 

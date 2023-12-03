@@ -1,10 +1,8 @@
-body {
-  background-color: Var(--primary-color);
-}
-
-main {
+.main-piano {
   width: 100%;
-  height: 80rem;
+  height: 51.90rem;
+  overflow-x:hidden ;
+  background-color: var(--primary-color);
 }
 
 .section-1-piano {
@@ -18,31 +16,33 @@ main {
   font-family: var(--title-font);
   font-size: var(--h1-size);
   color: var(--terciary-color);
-
-  margin-bottom: 4rem;
-
+  margin-top: 6rem;
+  margin-bottom: 2rem;
 }
 
 
 .h2-piano {
-  color: var(--terciary-color);
+  font-family: var(--title-font);
   font-size: var(--h2-size);
-  margin-bottom: 4rem;
+  color: var(--terciary-color);
+  margin-bottom: 2rem;
 }
 
 .p-piano {
   font-family: var(--text-font);
-  font-size: var(--text-font);
+  font-size: var(--text-size);
   color: var(--terciary-color);
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 /* PIANO*/
+
 .container-1-piano {
-  border-radius: 30px;
+  border-radius: 1rem;
   background: var(--secondary-color);
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .piano-keys {
