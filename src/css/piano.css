@@ -1,6 +1,6 @@
 .main-piano {
   width: 100%;
-  height: 60rem;
+  height: 47rem;
   background-color: var(--primary-color);
 }
 
@@ -15,8 +15,8 @@
   font-family: var(--title-font);
   font-size: var(--h1-size);
   color: var(--terciary-color);
-  margin-top: 10rem;
-  margin-bottom: 4rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -24,20 +24,20 @@
   font-family: var(--title-font);
   font-size: var(--h2-size);
   color: var(--terciary-color);
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .p-piano {
   font-family: var(--text-font);
   font-size: var(--text-size);
   color: var(--terciary-color);
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 /* PIANO*/
 
 .container-1-piano {
-  border-radius: 30px;
+  border-radius: 1rem;
   background: var(--secondary-color);
   display: flex;
   justify-content: center;

@@ -15,8 +15,8 @@
   font-family: var(--title-font);
   font-size: var(--h1-size);
   color: var(--terciary-color);
-  margin-top: 10rem;
-  margin-bottom: 4rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -24,14 +24,14 @@
   font-family: var(--title-font);
   font-size: var(--h2-size);
   color: var(--terciary-color);
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .p-guitar {
   font-family: var(--text-font);
   font-size: var(--text-size);
   color: var(--terciary-color);
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 
