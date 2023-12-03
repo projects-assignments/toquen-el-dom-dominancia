@@ -1,6 +1,6 @@
 .main-instruments {
     width: 100%;
-    height: 80rem;
+    height: 70rem;
     background-color: var(--primary-color);
 
 }
@@ -17,8 +17,8 @@
     font-family: var(--title-font);
     font-size: var(--h1-size);
     color: var(--terciary-color);
-    margin-top: 10rem;
-    margin-bottom: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
 }
 
 /*INSTRUMENTS*/
