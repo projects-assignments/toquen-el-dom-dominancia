@@ -8,7 +8,7 @@
     font-family: var(--title-font);
     text-align: center;
     color: var(--terciary-color);
-    background-image: linear-gradient(var(--primary-color)90%,var(--secondary-color) );
+    background-image: linear-gradient(var(--secondary-color),var(--primary-color)30% );
     height: 45rem;
     position: relative;
     display: flex;
@@ -58,7 +58,11 @@
 }
 .hero-img{
     width: 100%;
+    box-shadow:inset 0 -3em 3em rgba(0, 0, 0, 0.6)
     
+    
+    
+
 
 }
 
@@ -98,7 +102,7 @@
     margin-left: 3rem;
     margin-right: 0.5rem;
     width: 10vw;
-    box-shadow:  12px 12px rgba(141, 133, 133, 0.15);;
+    box-shadow:  12px 12px rgba(141, 133, 133, 0.15);
     
     
 }
