@@ -1,0 +1,8 @@
+
+
+.handpan-dimple circle, 
+.handpan-dimple ellipse{
+    fill: var(--secondary-color);
+    stroke: black;
+    stroke-width:2;
+}
