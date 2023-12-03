@@ -8,20 +8,19 @@
     font-family: var(--title-font);
     text-align: center;
     color: var(--terciary-color);
-    
-    height: 45rem;
-    position: relative;
+    width: 100%;
+    height: 39rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+    position: static;
 }
-.hero-img-orange{
+.hero-handpan{
     
-    background-size: cover;
+    width: 100%;
     
-    
-   
 }
 .text-box{
     position: absolute;
@@ -41,48 +40,44 @@
     margin-top: 4rem;
 }
 #btn-try{
-     background-color: var(--secondary-color);
+    background-color: var(--secondary-color);
     border-radius: 30px;
     border-style: none;
     font-family: var(--text-font) ;
     font-weight: bold;
     font-size: var(--text-hero-btn-size);
-
     width: 6rem;
     height: 2rem; 
-   
+
 }
 #btn-try:hover{
-    cursor: pointer;
-    
-    }
+    cursor: pointer;   
+}
 #p-hero{
-
     font-family: var(--text-font);
     font-size: var(--h2-size);
-
 }
-.hero-img{
+/* .hero-img{
     width: 100%;
     box-shadow:inset 0 -3em 3em rgba(0, 0, 0, 0.6);
     position: absolute;
-}
+} */
 
 .i-main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height:160rem;
+    height:210rem;
     width: 100%;
-    
 }
-
 .m-o-staff{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5rem;
+    align-items: center;
+    gap: 5rem; 
+    
 
 }
 .container_h2_p{
@@ -94,6 +89,7 @@
 
 }
 .staff-h2{
+    margin-bottom: 2rem;
     font-size: var(--h1-size);
     font-family: var(--title-font);
     color: var(--terciary-color);
@@ -105,17 +101,16 @@
     margin-right: 0.5rem;
     width: 10vw;
     box-shadow:  12px 12px rgba(141, 133, 133, 0.15);
-    
-    
 }
 .article-team{
     
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem
+    gap: 4rem
 
 }
+
 .p_h2{
     color: var(--terciary-color);
     font-size: var(--text-size);
@@ -128,11 +123,62 @@
     font-family: var(--text-font);
     font-size: var(--text-size);
     overflow: hidden;
- 
-
 }
 .text-right{
     margin-left: 5rem;
 }
+.section-1-instruments-home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h1-instruments-home {
+    font-family: var(--title-font);
+    font-size: var(--h1-size);
+    color: var(--terciary-color);
+    margin-bottom: 2rem;
+    
+}
+.article-instruments-home{
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+}
 
+.image-instruments-home{
+    width: 23rem;
+    border-radius: 10px;
+}
+.p-button-instruments-home{
+    width: 10rem;
+    margin: 0 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid var(--terciary-color);
+    border-radius: 10px;
+}
+.p-instruments-home{
+    font-size: var(--text-size);
+    font-family: var(--text-font);
+    color: var(--terciary-color);
 
+}
+#button-instruments-home{
+    width: 6rem;
+    font-family: var(--text-font);
+    font-size: var(--text-hero-btn-size);
+    font-weight: bold;
+    height: 2rem;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    border-style: none;
+}
+#button-instruments-home:hover {
+    cursor: pointer;
+
+}
