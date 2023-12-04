@@ -87,12 +87,16 @@
   background: linear-gradient(to bottom, #fff 0%, #eee 100%);
 }
 
-@media only screen and (max-width:600px){
+@media only screen and ( max-width:800px){
   .h1-piano, .h2-piano, .p-piano{
     display:none;
   }
 }
-@media (max-width: 600px) and (orientation: landscape){
+@media (max-width: 800px) and (orientation: landscape){
+  .main-piano{
+  height: 16rem;
+  }
+  
   .container-1-piano {
     width: 100%; 
 

@@ -25,9 +25,7 @@
         flex-direction: row;
         justify-content: space-between;
         list-style: none;
-       
-       
-        
+
 }
 .nav-links-li{
     font-family: var(--text-font);
@@ -45,8 +43,6 @@
     transition: 0.15s ease-in-out;
     position: relative;
     color: var(--terciary-color);
-  
-    
 }
 .nav-links-a:hover{
     color:var(--secondary-color);
@@ -93,7 +89,7 @@
 #check{
     display: none;
 }
-@media (max-width: 640px) {
+@media (max-width: 800px) {
  .nav-links {
     flex-direction: column;
     align-items: center;
@@ -120,6 +116,11 @@
     z-index: 1000;
   
 }
+.img-logo {
+    width: 6rem;
+
+    margin-left: 0.6rem;
+}
 .nav-links-li{
     margin-top: 40px;
 }
@@ -130,7 +131,6 @@
         display: block; 
     }
 
-    
     #check:checked ~ .nav-links{
         right:0;
     }
