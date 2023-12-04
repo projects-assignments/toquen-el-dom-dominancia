@@ -92,6 +92,10 @@
     
     
 }
+.guitar-strings .string.active{
+  box-shadow: inset -5px -10px 10px rgb(255, 255, 255);
+  background: linear-gradient(to bottom, #000, #434343);
+}
 
 
 .str-1 {
