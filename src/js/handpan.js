@@ -1,4 +1,4 @@
-const handpanKeys= document.querySelectorAll(".handpan-dimple");
+const handpanKeys= document.querySelectorAll(".handpan-dimple ");
 let allKeys=[];
 const audio = new Audio(`/src/assets/sounds/handpan_sounds/1.wav`);
 const playTune = (key) => {
@@ -8,7 +8,7 @@ const playTune = (key) => {
     clickedKey.classList.add("active");
     setTimeout(()=>{
         clickedKey.classList.remove("active");
-    },3000);
+    },150);
 }
 handpanKeys.forEach(key => {
     allKeys.push(key.dataset.key);
