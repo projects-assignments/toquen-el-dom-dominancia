@@ -21,7 +21,7 @@
 
 .nav-links{
     display: flex;
-        width: 24%;
+        width: 25rem;
         flex-direction: row;
         justify-content: space-between;
         list-style: none;

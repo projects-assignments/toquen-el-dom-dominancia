@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
@@ -52,19 +52,62 @@
     border-radius: 10px;
 }
 
-#button-instruments {
+.button-instruments {
     width: 6rem;
+    height: 2rem;
     font-family: var(--text-font);
     font-size: var(--text-hero-btn-size);
     font-weight: bold;
-    height: 2rem;
     background-color: var(--secondary-color);
     border-radius: 30px;
     border-style: none;
 
 }
 
-#button-instruments:hover {
+.button-instruments:hover {
     cursor: pointer;
 
 }
+
+@media only screen and (max-width: 600px){
+    .main-instruments {
+        width: 100%;
+        height: 32rem;
+    }  
+    }
+        .h1-instruments {
+        
+        font-size: 1.2rem;
+        
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+    
+    /*INSTRUMENTS*/
+    
+    .article-instruments {
+        margin-bottom: 1rem;
+    }
+    
+    .p-button-instruments {
+        width: 6rem;
+       height: 6rem;
+        margin-bottom: 1rem; 
+    }
+    
+    .p-instruments {
+        font-size: 1rem;
+    }
+    
+    .image-instruments {
+        width: 10rem;
+        height: 6rem;
+        border-radius: 10px;
+    }
+    
+    .button-instruments {
+        width: 4.5rem;
+        height: 2rem;
+        font-size: 1rem;       
+    }
+    

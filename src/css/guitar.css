@@ -1,6 +1,6 @@
 .main-guitar {
   width: 100%;
-  height: 100rem;
+  height: 55rem;
   background-color: var(--primary-color);
 }
 
@@ -37,11 +37,6 @@
 
 /*GUITAR*/
 .container-1-guitar{
-    /* background-image: url("/assets/image/backgrounguitar.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    object-fit: fill; */
     display: flex;
     align-items: center;
     width: 36rem;
@@ -92,6 +87,10 @@
     
     
 }
+.guitar-strings .string.active{
+  box-shadow: inset -5px -10px 10px rgb(255, 255, 255);
+  background: linear-gradient(to bottom, #000, #434343);
+}
 
 
 .str-1 {
@@ -119,32 +118,69 @@
   }
 
 
- /* @media (orientation: landscape) {
-    .guitar-cont{
-        width: 100%;
-        height: 100%;
-        min-height: 300px;
-        min-width: 450px;
-        border-radius: 10%;
+  @media (max-width: 600px) and (orientation: landscape){
     }
-}
- @media screen and (orientation: portrait) {
-    .guitar-cont{
-        background-color: coral;
-        width: 90%;
-        height: 90%;
-        border-radius: 10%;
-        border: 2px solid red;
+    .h1-guitar, .h2-guitar, .p-guitar{
+      display:none;
     }
-} 
+    .container-1-guitar{
+      width: 36rem;
+      height: 20rem;     
+  }
 
-@media screen and (min-width: 400px) {
-    .guitar-cont{
-        width: 70%;
-        height: 60%;
-        max-width: 800px;
-        max-height: 500px;
-        border-radius: 10%;
+  .hole{
+      width: 18rem;
+      left: 3rem;
+      
+      height: 18rem;
+      
+  
+  }
+  .neck{
+    width: 26rem;
+    max-width: 478px;
+    height: 8.5rem;
+    
+    left: 10rem;
+  
+  }
+ 
+    
+    
+    
+  
+  .string {
+ 
+      width: 36rem;
+      max-width: 578px;
+      
+      
+  }
+ 
+  
+  
+  .str-1 {
+      height: 9px;
     }
-}
- */
+  
+  .str-2 {
+      height: 8px;
+    }
+  
+  .str-3 {
+      height: 7px;
+    }
+  
+  .str-4 {
+      height: 6px;
+    }
+  
+  .str-5 {
+      height: 5px;
+    }
+  
+    .str-6 {
+      height: 4px;
+    }
+  
+  

@@ -28,3 +28,31 @@ footer {
 
     margin-left: 6rem;
 }
+
+@media only screen and (max-width:600px){
+         
+    }
+        .icons-footer {
+        
+        width: 18%;
+        margin-right: 3.5rem;
+    }
+    
+    .footer-icons {
+        width: 2rem;
+        margin-right:0.2rem;
+    
+    }
+    
+  
+    .img-logo {
+       width: 5rem; 
+        margin-left: 1rem;
+    }
+
+
+
+
+
+
+
