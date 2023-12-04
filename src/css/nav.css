@@ -13,7 +13,7 @@
 }
 .nav-links{
     display: flex;
-        width: 24%;
+        width: 10rem;
         flex-direction: row;
         justify-content: space-between;
         margin-right: 5rem;
@@ -24,13 +24,9 @@
     font-family: var(--text-font);
     font-size: var(--nav-text-size);
     color: var(--terciary-color);
-   
 }
 .nav-links-a{
     text-decoration: none;
-    
-    
-    
 }
 .img-logo {
     width: var(--logo-size);
