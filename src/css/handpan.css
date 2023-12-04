@@ -46,9 +46,12 @@
     margin-bottom: 2rem;
     padding: 0.2rem 8rem 0.2rem 8rem;
   }
-.handpan-dimple circle, 
-.handpan-dimple ellipse{
+.handpan-dimple{
     fill: var(--secondary-color);
     stroke: black;
     stroke-width:2;
+}
+
+.handpan-dimple.active{
+    fill: rgba(255, 255, 255, 0.233);
 }
