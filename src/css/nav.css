@@ -13,11 +13,7 @@
 }
 .nav-links{
     display: flex;
-<<<<<<< HEAD
-        width: 10rem;
-=======
         width: 25rem;
->>>>>>> 6ad35a4e0522184933efeef7b46140390fe78a8b
         flex-direction: row;
         justify-content: space-between;
         margin-right: 5rem;
