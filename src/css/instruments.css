@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
@@ -52,19 +52,19 @@
     border-radius: 10px;
 }
 
-#button-instruments {
+.button-instruments {
     width: 6rem;
+    height: 2rem;
     font-family: var(--text-font);
     font-size: var(--text-hero-btn-size);
     font-weight: bold;
-    height: 2rem;
     background-color: var(--secondary-color);
     border-radius: 30px;
     border-style: none;
 
 }
 
-#button-instruments:hover {
+.button-instruments:hover {
     cursor: pointer;
 
 }

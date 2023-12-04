@@ -24,10 +24,7 @@
     font-family: var(--text-font);
     font-size: var(--nav-text-size);
     color: var(--terciary-color);
-    
-    /* border:1px solid orange;
-    padding: 5px 8px 5px 8px;
-    border-radius: 10px; */
+   
 }
 .nav-links-a{
     text-decoration: none;
