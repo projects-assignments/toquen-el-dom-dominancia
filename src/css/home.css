@@ -3,26 +3,30 @@
     display: flex;
     flex-direction: column;
 }
-.title-hero{
+
+.title-hero {
     background-size: cover;
     font-family: var(--title-font);
     text-align: center;
     color: var(--terciary-color);
     width: 100%;
-    height: 39rem;
-    display: flex;
+    height: 35rem;
+     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    
-    position: static;
+    flex-direction: column; 
+    position: relative;
+    margin-bottom: 2rem;
 }
-.hero-handpan{
-    
+
+.hero-handpan {
+
     width: 100%;
-    
+    position: absolute;
+    z-index: 1;
 }
-.text-box{
+
+.text-box {
     position: absolute;
     display: flex;
     color: var(--terciary-color);
@@ -32,63 +36,56 @@
     height: 35rem;
     width: 100%;
     font-size: 1rem;
-    
+    z-index: 2;
 }
-#h1-hero{
+
+#h1-hero {
     font-size: var(--h1-xl-size);
-    width: 65%;  
+    width: 65%;
     margin-top: 4rem;
 }
-.button-instruments-home{
-    background-color: var(--secondary-color);
-    border-radius: 30px;
-    border-style: none;
-    font-family: var(--text-font) ;
-    font-weight:bolder;
-    font-size: var(--text-size);
-    width: 8rem;
-    height: 4rem; 
 
-}
-.button-instruments-home:hover{
-    cursor: pointer;   
-}
-#p-hero{
+
+#p-hero {
     font-family: var(--text-font);
     font-size: var(--h2-size);
 }
-/* .hero-img{
-    width: 100%;
-    box-shadow:inset 0 -3em 3em rgba(0, 0, 0, 0.6);
-    position: absolute;
-} */
-
-.i-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height:210rem;
-    width: 100%;
+.button-try-home {
+    width: 9rem;
+    height: 3rem;
+    font-family: var(--text-font);
+    font-size: var(--text-hero-btn-size);
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    border-style: none;
 }
-.m-o-staff{
+.button-try-home:hover {
+    cursor: pointer;
+}
+
+
+.m-o-staff {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5rem; 
-    
+    gap: 5rem;
+    margin-bottom: 2rem;
+
 
 }
-.container_h2_p{
+
+.container_h2_p {
     width: 62%;
     display: flex;
     flex-direction: column;
-    align-self:center;
+    align-self: center;
 
 
 }
-.staff-h2{
+
+.staff-h2 {
     margin-bottom: 2rem;
     font-size: var(--h1-size);
     font-family: var(--title-font);
@@ -96,27 +93,28 @@
 
 }
 
-.img-team{
+.img-team {
     margin-left: 3rem;
     margin-right: 0.5rem;
     width: 10vw;
-    box-shadow:  12px 12px rgba(141, 133, 133, 0.15);
+    box-shadow: 12px 12px rgba(141, 133, 133, 0.15);
 }
-.article-team{
-    
+
+.article-team {
+
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4rem
-
 }
 
-.p_h2{
+.p_h2 {
     color: var(--terciary-color);
     font-size: var(--text-size);
     font-family: var(--text-font);
 
 }
+
 .p-article {
     color: var(--terciary-color);
     width: 50%;
@@ -124,35 +122,40 @@
     font-size: var(--text-size);
     overflow: hidden;
 }
-.text-right{
+
+.text-right {
     margin-left: 5rem;
 }
-.section-1-instruments-home{
+
+.section-1-instruments-home {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .h1-instruments-home {
     font-family: var(--title-font);
     font-size: var(--h1-size);
     color: var(--terciary-color);
     margin-bottom: 2rem;
-    
+
 }
-.article-instruments-home{
+
+.article-instruments-home {
     margin-bottom: 4rem;
     display: flex;
     flex-direction: row;
 }
 
-.image-instruments-home{
+.image-instruments-home {
     width: 23rem;
     border-radius: 10px;
 }
-.p-button-instruments-home{
+
+.p-button-instruments-home {
     width: 10rem;
     margin: 0 0.3rem;
     display: flex;
@@ -162,23 +165,30 @@
     border: 2px solid var(--terciary-color);
     border-radius: 10px;
 }
-.p-instruments-home{
+
+.p-instruments-home {
     font-size: var(--text-size);
     font-family: var(--text-font);
     color: var(--terciary-color);
 
 }
-#button-instruments-home{
+
+.button-instruments-home {
+    height: 2rem;
     width: 6rem;
     font-family: var(--text-font);
     font-size: var(--text-hero-btn-size);
     font-weight: bold;
-    height: 2rem;
+
     background-color: var(--secondary-color);
     border-radius: 30px;
     border-style: none;
+
 }
-#button-instruments-home:hover {
+
+
+.button-instruments-home:hover {
     cursor: pointer;
 
 }
+

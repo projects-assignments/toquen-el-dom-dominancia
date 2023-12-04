@@ -1,6 +1,6 @@
 .main-piano {
   width: 100%;
-  height: 51.90rem;
+  height: 52rem;
   overflow-x:hidden ;
   background-color: var(--primary-color);
 }
