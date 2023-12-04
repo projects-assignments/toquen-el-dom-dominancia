@@ -210,12 +210,10 @@
         height: 1.3rem;
         font-size: 0.8rem;
     }
-    .article-team {
-        
+    .article-team { 
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
     .text-box {
         height: 12rem;
@@ -231,9 +229,12 @@
         font-size: 1rem;
     } 
     .img-team {
-    
     min-width: 10rem;
-    
+   }
+    .q-swap {
+    flex-direction: column-reverse;
+   }
+
 }
-}
+
         
