@@ -114,3 +114,71 @@
   .str-6 {
     height: 4px;
   }
+
+
+  @media (max-width: 600px) and (orientation: landscape){
+    }
+    .h1-guitar, .h2-guitar, .p-guitar{
+      display:none;
+    }
+    .container-1-guitar{
+      width: 36rem;
+      height: 20rem;     
+  }
+
+  .hole{
+      width: 18rem;
+      left: 3rem;
+      
+      height: 18rem;
+      
+  
+  }
+  .neck{
+    width: 26rem;
+    max-width: 478px;
+    height: 8.5rem;
+    
+    left: 10rem;
+  
+  }
+ 
+    
+    
+    
+  
+  .string {
+ 
+      width: 36rem;
+      max-width: 578px;
+      
+      
+  }
+ 
+  
+  
+  .str-1 {
+      height: 9px;
+    }
+  
+  .str-2 {
+      height: 8px;
+    }
+  
+  .str-3 {
+      height: 7px;
+    }
+  
+  .str-4 {
+      height: 6px;
+    }
+  
+  .str-5 {
+      height: 5px;
+    }
+  
+    .str-6 {
+      height: 4px;
+    }
+  
+  
