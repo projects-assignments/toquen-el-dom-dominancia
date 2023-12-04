@@ -190,7 +190,7 @@
 }
 @media only screen and (max-width: 600px) {
     .title-hero {
-    height: 11rem;
+    height: 13rem;
     }
     .hero-handpan {
     min-width: 550px;
@@ -217,7 +217,8 @@
     }
     .text-box {
         height: 12rem;
-        margin:1rem;  
+        margin:1rem; 
+
     }
     .staff-h2 {
         font-size: 1.5rem;
@@ -227,6 +228,7 @@
     }
     .p-article {
         font-size: 1rem;
+      
     } 
     .img-team {
     min-width: 10rem;
@@ -235,6 +237,40 @@
     flex-direction: column-reverse;
    }
 
+.h1-instruments-home {
+    
+    font-size: 1.2rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*INSTRUMENTS*/
+.article-instruments-home {
+    margin-bottom: 1rem;
+}
+
+.p-button-instruments-home {
+    width: 6rem;
+   height: 6rem;
+    margin-bottom: 1rem; 
+}
+
+.p-instruments-home {
+    font-size: 1rem;
+}
+
+.image-instruments-home {
+    width: 10rem;
+    height: 6rem;
+    border-radius: 10px;
+}
+
+.button-instruments-home {
+    width: 4.5rem;
+    height: 2rem;
+    font-size: 1rem;       
+}
 }
 
         

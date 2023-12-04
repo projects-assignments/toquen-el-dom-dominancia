@@ -28,8 +28,4 @@
 .nav-links-a{
     text-decoration: none;
 }
-.img-logo {
-    width: var(--logo-size);
 
-    margin-left: 1rem;
-}
