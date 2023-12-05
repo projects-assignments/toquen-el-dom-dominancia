@@ -1,0 +1,127 @@
+.main-piano {
+  width: 100%;
+  height: 52rem;
+  overflow-x:hidden ;
+  background-color: var(--primary-color);
+}
+
+.section-1-piano {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-piano {
+  font-family: var(--title-font);
+  font-size: var(--h1-size);
+  color: var(--terciary-color);
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+
+.h2-piano {
+  font-family: var(--title-font);
+  font-size: var(--h2-size);
+  color: var(--terciary-color);
+  margin-bottom: 2rem;
+}
+
+.p-piano {
+  font-family: var(--text-font);
+  font-size: var(--text-size);
+  color: var(--terciary-color);
+  margin-bottom: 2rem;
+}
+
+/* PIANO*/
+
+.container-1-piano {
+  border-radius: 1rem;
+  background: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.piano-keys {
+  display: flex;
+  list-style: none;
+  padding: 2rem 0 2rem 0;
+
+}
+
+.piano-keys .key {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.piano-keys .black {
+  z-index: 2;
+  width: 44px;
+  height: 140px;
+  margin: 0 -22px 0 -22px;
+  border-radius: 0 0 5px 5px;
+  background: linear-gradient(#333, #000);
+}
+
+.piano-keys .black.active {
+  box-shadow: inset -5px -10px 10px rgba(255, 255, 255, 0.1);
+  background: linear-gradient(to bottom, #000, #434343);
+}
+
+.piano-keys .white {
+  height: 230px;
+  width: 70px;
+  border-radius: 8px;
+  border: 1px solid var(--secondary-color);
+  background: linear-gradient(#fff, #eee);
+
+}
+
+.piano-keys .white.active {
+  box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+}
+
+@media only screen and ( max-width:800px){
+  .h1-piano, .h2-piano, .p-piano{
+    display:none;
+  }
+}
+@media (max-width: 800px) and (orientation: landscape){
+  .main-piano{
+  height: 16rem;
+  }
+  
+  .container-1-piano {
+    width: 100%; 
+
+    margin-top: 2.5rem;
+   
+  }
+
+  .piano-keys {
+ width:90%;
+
+  }
+  
+  .piano-keys .black {
+
+    width: 2rem;
+    height: 5rem; 
+    margin: 0 -15px -15px;
+  }
+  
+  .piano-keys .white {
+    height: 169.5px;
+    width: 52.5px; 
+        
+  
+  }
+  
+  
+}

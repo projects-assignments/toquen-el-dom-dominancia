@@ -1,0 +1,34 @@
+@import "./base.css";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&family=Montserrat+Alternates&family=Roboto+Mono&display=swap');
+
+html {
+    box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    }
+
+    :root {
+        --primary-color: #161515;
+        --secondary-color: #D99923;
+        --secondary-color-rgba:rgba(217, 153, 35,0.10);
+        --terciary-color: #fcede0;
+        --guitar-string-color: rgb(255, 255, 255);
+        --quartiary-color: black;
+        --title-font: 'Montserrat Alternates', sans-serif;
+        --text-font: 'Roboto Mono', monospace;
+        --h1-xl-size:5rem;
+        --h1-size: 4rem;
+        --h2-size: 2rem;
+        --text-size: 1.5rem;
+        --nav-text-size:1.5rem;
+        --text-hero-btn-size: 1rem;
+        --footer-icons-size: 2.5rem;
+        --logo-size: 9rem;
+        --opacity-null:  rgba(255,255,255,0.0);
+    }

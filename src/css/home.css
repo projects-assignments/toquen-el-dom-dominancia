@@ -1,0 +1,276 @@
+#home_body {
+    background-color: Var(--primary-color);
+    display: flex;
+    flex-direction: column;
+}
+.i-main{
+width: 100%;
+height: 205rem;
+}
+.title-hero {
+    background-size: cover;
+    font-family: var(--title-font);
+    text-align: center;
+    color: var(--terciary-color);
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    position: relative;
+    margin-bottom: rem;
+}
+
+.hero-handpan {
+
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.text-box {
+    position: absolute;
+    display: flex;
+    color: var(--terciary-color);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 35rem;
+    width: 100%;
+    z-index: 2;
+}
+
+#h1-hero {
+    font-size: var(--h1-xl-size);
+    width: 65%;
+    margin-top: 4rem;
+}
+
+
+#p-hero {
+    font-family: var(--text-font);
+    font-size: var(--h2-size);
+}
+.button-try-home {
+    width: 9rem;
+    height: 3rem;
+    font-family: var(--text-font);
+    font-size: var(--text-hero-btn-size);
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    border-style: none;
+}
+.button-try-home:hover {
+    cursor: pointer;
+}
+
+
+.m-o-staff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 2rem;
+    height: 100rem;
+}
+
+.container_h2_p {
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+
+}
+
+.staff-h2 {
+    margin-bottom: 2rem;
+    font-size: var(--h1-size);
+    font-family: var(--title-font);
+    color: var(--terciary-color);
+
+}
+
+.img-team {
+    margin-left: 3rem;
+    margin-right: 0.5rem;
+    width: 10vw;
+    box-shadow: 12px 12px rgba(141, 133, 133, 0.15);
+}
+
+.article-team {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem
+}
+
+.p_h2 {
+    color: var(--terciary-color);
+    font-size: var(--text-size);
+    font-family: var(--text-font);
+
+}
+
+.p-article {
+    color: var(--terciary-color);
+    width: 50%;
+    font-family: var(--text-font);
+    font-size: var(--text-size);
+    overflow: hidden;
+}
+
+.text-right {
+    margin-left: 5rem;
+}
+
+.section-1-instruments-home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h1-instruments-home {
+    font-family: var(--title-font);
+    font-size: var(--h1-size);
+    color: var(--terciary-color);
+    margin-bottom: 2rem;
+
+}
+
+.article-instruments-home {
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-instruments-home {
+    width: 23rem;
+    border-radius: 10px;
+}
+
+.p-button-instruments-home {
+    width: 10rem;
+    margin: 0 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid var(--terciary-color);
+    border-radius: 10px;
+}
+
+.p-instruments-home {
+    font-size: var(--text-size);
+    font-family: var(--text-font);
+    color: var(--terciary-color);
+
+}
+
+.button-instruments-home {
+    height: 2rem;
+    width: 6rem;
+    font-family: var(--text-font);
+    font-size: var(--text-hero-btn-size);
+    font-weight: bold;
+
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    border-style: none;
+
+}
+.button-instruments-home:hover {
+    cursor: pointer;
+
+}
+@media only screen and (max-width: 800px) {
+    .i-main{
+    height: 210rem;
+    }
+    .title-hero {
+    height: 14rem;
+    }
+    .hero-handpan {
+    width: 100%;
+    height: 14rem;
+    }
+    #h1-hero {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+        /* margin-top: 1.6rem; */
+    }
+    #p-hero {
+    font-size: 0.8rem;
+    }
+    .button-try-home {
+    margin-top: 0.6rem;
+    width: 4rem;
+    height: 1.3rem;
+    font-size: 0.8rem;
+    }
+    .article-team { 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .text-box {
+    height: 12rem;
+    margin:1rem; 
+
+    }
+    .m-o-staff {
+        
+    height: 165rem;
+    }
+    .staff-h2 {
+    font-size: 1.5rem;
+    }
+    .p_h2 {       
+    font-size: 1rem;
+    }
+    .p-article {
+    font-size: 1rem;
+      
+    } 
+    .img-team {
+    min-width: 10rem;
+   }
+    .q-swap {
+    flex-direction: column-reverse;
+   }
+
+.h1-instruments-home {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/*INSTRUMENTS*/
+.article-instruments-home {
+    margin-bottom: 1rem;
+}
+.p-button-instruments-home {
+    width: 6rem;
+   height: 6rem;
+    margin-bottom: 1rem; 
+}
+.p-instruments-home {
+    font-size: 1rem;
+}
+.image-instruments-home {
+    width: 10rem;
+    height: 6rem;
+    border-radius: 10px;
+}
+.button-instruments-home {
+    width: 4.5rem;
+    height: 2rem;
+    font-size: 1rem;       
+}
+}
